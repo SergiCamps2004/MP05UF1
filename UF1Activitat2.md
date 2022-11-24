@@ -50,3 +50,58 @@ Aunque sigui multiplataforma, si la màquina no te l'interpret no funcionara
 ### IDE de desenvolupament
 
 Visual Studio code, RStudio i Geany
+
+## Llenguatge Compilat ( Java )
+Hem escollit Java com a llenguatge compilat ja que es un llenguatge amb el que no estem
+familiaritzats i ens serà útil saber quant més millor sobre el seu funcionament/sintaxi.
+### Compilant Java amb javac
+He instalat javac, un compilador bastant senzill que s'utilitza de la següent forma:
+![image](https://user-images.githubusercontent.com/96839905/194018723-727b5315-681f-4
+b9d-bc60-ef6baf647cd7.png)
+Per a passar el codi font a codi d'objecte només tindrem que executar l'arxiu amb javac,
+cosa que creará l'arxiu class a partir del codi font.
+Extensions dels fitxers de codi font i objecte:
+![image](https://user-images.githubusercontent.com/96839905/194020406-b906b9cf-c92c-4
+9b1-8572-a18c51b65d4f.png)
+## Exemple de codi
+Programa de dau de 6 cares amb Java (he fet servir nano per escriure el codi desde la
+terminal)
+```// Inici del programa, logica y declaració de variables:
+public class java6 {
+public static void main(String[] args) {
+int dau = (int) Math.floor(Math.random()*6 + 1);
+// math random genera un número entre 0 i 6 aquest no inclós ( per això el +1 final) i
+desprès math floor s'arrodoneix els decimals del resultat a la baixa (de forma que no podem
+obtenir un 7 si surt mes de 6.5).
+// Output de dades
+System.out.println("Resultat de la cara obtinguda: ");
+;
+// Switch per al resultat del math random/floor (resultat del dau)
+switch (dau) {
+case 1:
+System.out.println("T'ha tocat el número \"un\".");
+break;
+
+case 2:
+System.out.println("T'ha tocat el número \"dos\".");
+break;
+case 3:
+System.out.println("T'ha tocat el número \"tres\".");
+break;
+case 4:
+System.out.println("T'ha tocat el número \"quatre\".");
+break;
+case 5:
+System.out.println("T'ha tocat el número \"cinc\".");
+break;
+case 6:
+System.out.println("T'ha tocat el número\"sis\".");
+break;
+default:
+System.out.println("Número no disponible al dau >:(");
+}
+}
+}
+```
+## Avantatges de fer servir un llenguatge compilat
+## IDE's per a desenvolupament amb java
