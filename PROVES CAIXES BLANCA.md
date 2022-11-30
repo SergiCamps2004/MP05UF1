@@ -72,4 +72,5 @@ public class proves {
 5. Investiga sobre les proves de caixa negra:
 
   - Què són?
+  Es un terme técnic que s'aplica a la forma en que s'estudia un sistema principalment en terminis de les características d'entrada i sortida  
   - Quina diferència principal tenen sobre les de caixa blanca?
