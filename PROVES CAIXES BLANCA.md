@@ -62,8 +62,11 @@ public class proves {
         return llums;
     }
 ```
-  - **Diagrama:**
-  - **Resultat CC:**
+  - **Diagrama:
+  
+  ![image](https://user-images.githubusercontent.com/113586164/204750325-3a535114-733e-4eec-b434-4838ee3d9d4e.png)
+
+  - **Resultat CC:9-7+2=4
   - **Resultat proves camins:**
 
 5. Investiga sobre les proves de caixa negra:
