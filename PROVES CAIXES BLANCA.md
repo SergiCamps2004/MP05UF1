@@ -47,7 +47,7 @@ public class proves {
 
   - **Diagrama:
   
-  ![image](https://user-images.githubusercontent.com/113586164/204745364-ea486e8e-fe3d-47e3-b50c-b2736b5f6283.png)
+  ![image](https://user-images.githubusercontent.com/113586164/204747636-2a982e7b-e33e-447e-8de7-b15249d0ab3b.png)
 
   - **Resultat CC:10-7+2=5
 
