@@ -74,3 +74,4 @@ public class proves {
   - Què són?
   Es un terme técnic que s'aplica a la forma en que s'estudia un sistema principalment en terminis de les características d'entrada i sortida  
   - Quina diferència principal tenen sobre les de caixa blanca?
+  A la caixa negra l'usuari no pot veure de forma interna el funcionament de l'algoritme, en canvi, a la caixa blanca si
